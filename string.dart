@@ -1,8 +1,13 @@
 void main() {
-  var biodata = [
-    'Nama : M. Azis Muhemin Tohari',
-    'TTL : Tuban, Jawa Timur',
-    'Kampus : Universitas Narotama',
-  ];
-  print(biodata);
+  String nama = 'M. Azis Muhemin Tohari';
+  var angka = 17;
+  var daftarHewan = 'kucing, kuda, kambing';
+
+  print(nama.contains('Azis'));
+  print(nama.toLowerCase());
+  print(nama.toUpperCase());
+  print(nama.length);
+  print(angka.toString());
+  print(daftarHewan.split(','));
+  print(nama.substring(3, 8));
 }
